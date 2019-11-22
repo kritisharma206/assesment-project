@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>My website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 55px;}
+  .bg-1 { 
+    background-image:url("images/intr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .bg-2 { 
+    background-color: black; 
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: black; 
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: black; 
+    color: #fff;
+  }
+  .bg-5 { 
+    background-color: black;
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: black !important;
+  }
+ 
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Game Of Thrones Series</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html" >HOME</a></li>
+        <li><a href="GOT.html" >GOT</a></li>
+        <li><a href="houses.html">HOUSES</a></li>
+        <li><a href="books.html">BOOKS</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" style="height: 650px;">
+  <div style="margin-top: 114px;">
+ <p class="margin"style="font-size: 65px;"><b>A SONG OF ICE AND FIRE</b></p>
+  <p class="margin" style="font-size: 48px;">by George R. R. Martin 
+  </p>
+</div>
+
+
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">About the Author</h3>
+  <img src="images/author.jpg" class="img-circle" width="250" height="250">
+  <p><b>George R. R. Martin</b> (born George Raymond Richard Martin, September 20, 1948), is an American novelist and short story writer in the fantasy, horror, and science fiction genres, screenwriter, and television producer. He is best known for his series of epic fantasy novels, A Song of Ice and Fire, which was adapted into the HBO series Game of Thrones (2011–2019). </p>
+  
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <video width="520" height="340" controls autoplay>
+  <source src="video.mp4" type="video/mp4">
+ 
+</video>
+  
+</div>
+
+<div class="container-fluid bg-4 text-center"> 
+
+  <button id="show" onclick="fetchData()" style="
+    color: black;
+    background: aliceblue;
+    border-radius: 18px;
+    font-family: fantas;"><h3>QUOTES</h3></button>
+       <div id="resDetails">
+
+
+             </div>
+
+          <script src="ja1.js">
+    </script>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center">
+   
+
+</footer>
+</body>
+
+
+</html>

@@ -1,0 +1,22 @@
+http://api.airvisual.com/v2/nearest_city?key=your_key
+key: 9ceea177-d8cd-4d27-a0fa-bb9b34367530
+
+country
+curl --location --request GET "api.airvisual.com/v2/countries?key={{YOUR_API_KEY}}"
+
+
+states
+curl --location --request GET "api.airvisual.com/v2/states?country=USA&key={{YOUR_API_KEY}}"
+
+
+city
+curl --location --request GET "api.airvisual.com/v2/cities?state=New%20York&country=USA&key={{YOUR_API_KEY}}"
+
+
+Nearest city
+curl --location --request GET "api.airvisual.com/v2/nearest_city?key={{YOUR_API_KEY}}"
+
+
+
+Rank
+curl --location --request GET "api.airvisual.com/v2/city_ranking?key={{YOUR_API_KEY}}"

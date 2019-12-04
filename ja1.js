@@ -10,7 +10,7 @@ xhr.onreadystatechange = function() {
 
 
     
-	    		console.log("kool");
+	    
 	      var a=document.createElement("div");   
 	     var name=document.createElement("li");
 	     name.innerHTML=data.quote;
